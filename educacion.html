@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta charsert="utf-8">
+		<title>Proyecto Final</title>
+	</head>
+	<body>
+		<header>
+			<svg width="200px" height="200px" viewbox="0 0 200 200">
+				<image xlink:href="imagenes/logo.svg" width="150px" height="180px" x="0" y="0"></image>
+			</svg>
+			<h1>Hoja de Vida</h1>
+			<h2>Armando Lara Torres</h2>
+			<h3>20 de Abril de 1986, México</h3>
+		</header>
+		<nav>
+			<a href="index.html">Inicio</a> |
+			<a href="educacion.html">Educación</a> |
+			<a href="experiencia.html">Experiencia</a>
+		</nav> 
+		
+		<section>
+			<h2>Educación</h2>
+			<table border=1>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Instituto Tecnológico de Puebla</td>
+					<td>México</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Next U</td>
+					<td>Web</td>
+					<td>No</td>
+				</tr>
+			</table>
+			<br>
+			<form autocomplete="on">
+				<fieldset>
+					<legend>Agregar Estudios</legend>
+					<label>Año<label>
+					 <select name="anhio">
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+					</select>
+					<br>
+					<label>Institución<label>
+					<input name="institucion" type="text" required>
+					<br>
+					<label>Lugar<label>
+					<textarea name="lugar" rows="1"></textarea>
+					<br>
+					<input type="submit" value="Enviar">
+				</fieldset>
+			</form>
+		</section>
+		<footer>
+			<h2>Contacto</h2>
+			<ul>
+				<li>Correo electrónico: armando.lara@domain.com</li>
+				<li>Teléfono: +52 (1) 222 1234567</li>
+				<li>Redes Sociales</li>
+					<ul>
+						<li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+						<li><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a></li>
+					</ul>
+			</ul>
+		</footer>
+	</body>
+</html>
